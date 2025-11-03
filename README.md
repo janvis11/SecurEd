@@ -1,4 +1,4 @@
-# SecurEd - Disaster Preparedness Education Platform
+# SecurEd - Disaster Preparedness Reimagined for Education
 
 SecurEd is an AI-powered disaster preparedness and response education system designed for schools and colleges. The platform provides immersive simulations, interactive learning modules, and real-time guidance to help students master emergency response protocols.
 
