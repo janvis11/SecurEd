@@ -4,37 +4,37 @@ SecurEd is an AI-powered disaster preparedness and response education system des
 
 ## Features
 
-### 🎮 AI-Powered Simulations
+### AI-Powered Simulations
 - Immersive 3D virtual disaster drills with real-time decision making
 - Multiple disaster scenarios: Earthquakes, Fires, Floods, and more
 - Instant feedback and performance analytics
 - Realistic environment simulations using Three.js
 
-### 💬 Safety Buddy Chatbot
+### Safety Buddy Chatbot
 - 24/7 AI assistant for disaster-related questions
 - Context-aware guidance and emergency protocols
 - Multi-language support
 - Real-time response system
 
-### 🏆 Gamified Learning
+### Gamified Learning
 - Points, badges, and achievement system
 - Student leaderboards and progress tracking
 - Interactive quizzes and assessments
 - Certification upon completion
 
-### 🗺️ Safety Map & Heatmap
+### Safety Map & Heatmap
 - Interactive maps showing safe zones and evacuation routes
 - Real-time disaster heatmap visualization
 - Location-based emergency resources
 - Integration with Leaflet.js for mapping
 
-### 📚 Learning Resources
+### Learning Resources
 - Comprehensive disaster preparedness modules
 - Government resources and guidelines
 - Video tutorials and documentation
 - Downloadable emergency checklists
 
-### 🆘 SOS Emergency System
+### SOS Emergency System
 - Quick access emergency contact system
 - Real-time alert notifications
 - Location sharing capabilities
