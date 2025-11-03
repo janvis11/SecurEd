@@ -1,0 +1,253 @@
+# SecurEd - Disaster Preparedness Education Platform
+
+SecurEd is an AI-powered disaster preparedness and response education system designed for schools and colleges. The platform provides immersive simulations, interactive learning modules, and real-time guidance to help students master emergency response protocols.
+
+## Features
+
+### 🎮 AI-Powered Simulations
+- Immersive 3D virtual disaster drills with real-time decision making
+- Multiple disaster scenarios: Earthquakes, Fires, Floods, and more
+- Instant feedback and performance analytics
+- Realistic environment simulations using Three.js
+
+### 💬 Safety Buddy Chatbot
+- 24/7 AI assistant for disaster-related questions
+- Context-aware guidance and emergency protocols
+- Multi-language support
+- Real-time response system
+
+### 🏆 Gamified Learning
+- Points, badges, and achievement system
+- Student leaderboards and progress tracking
+- Interactive quizzes and assessments
+- Certification upon completion
+
+### 🗺️ Safety Map & Heatmap
+- Interactive maps showing safe zones and evacuation routes
+- Real-time disaster heatmap visualization
+- Location-based emergency resources
+- Integration with Leaflet.js for mapping
+
+### 📚 Learning Resources
+- Comprehensive disaster preparedness modules
+- Government resources and guidelines
+- Video tutorials and documentation
+- Downloadable emergency checklists
+
+### 🆘 SOS Emergency System
+- Quick access emergency contact system
+- Real-time alert notifications
+- Location sharing capabilities
+- Emergency protocol guides
+
+## Tech Stack
+
+### Frontend
+- **Framework**: React 18.3 with TypeScript
+- **Build Tool**: Vite 5.4
+- **Routing**: React Router DOM 6.30
+- **UI Components**: Radix UI + shadcn/ui
+- **Styling**: TailwindCSS 3.4 with animations
+- **3D Graphics**: Three.js with React Three Fiber
+- **Maps**: Leaflet.js with heatmap support
+- **Charts**: Recharts
+- **State Management**: TanStack Query (React Query)
+- **Forms**: React Hook Form with Zod validation
+- **Icons**: Lucide React
+
+### Backend
+- **Database**: Supabase (PostgreSQL)
+- **Authentication**: Supabase Auth
+- **Real-time**: Supabase Realtime subscriptions
+- **Storage**: Supabase Storage for media files
+- **API**: RESTful API with Supabase client
+
+### Key Libraries
+- `@react-three/fiber` & `@react-three/drei` - 3D simulations
+- `leaflet` & `leaflet.heat` - Interactive maps
+- `recharts` - Data visualization
+- `cmdk` - Command palette
+- `sonner` - Toast notifications
+- `date-fns` - Date formatting
+
+## Project Structure
+
+```
+securEd/
+├── public/
+│   ├── favicon.svg          # Application icon
+│   ├── models/              # 3D models for simulations
+│   ├── placeholder.svg      # Placeholder images
+│   └── robots.txt
+├── src/
+│   ├── assets/              # Images and static assets
+│   ├── components/
+│   │   ├── 3d/             # Three.js 3D components
+│   │   ├── ui/             # shadcn/ui components
+│   │   ├── InteractiveSimulation.tsx
+│   │   ├── Navigation.tsx
+│   │   └── RealLifeSimulation.tsx
+│   ├── data/               # Static data and configurations
+│   ├── hooks/              # Custom React hooks
+│   ├── integrations/
+│   │   └── supabase/       # Supabase client and types
+│   ├── lib/                # Utility functions
+│   ├── pages/
+│   │   ├── Index.tsx       # Landing page
+│   │   ├── Dashboard.tsx   # User dashboard
+│   │   ├── Simulations.tsx # Simulation selection
+│   │   ├── SimulationPlay.tsx # Active simulation
+│   │   ├── Learning.tsx    # Learning modules
+│   │   ├── GovtResources.tsx # Government resources
+│   │   ├── SafetyMap.tsx   # Interactive safety map
+│   │   ├── Heatmap.tsx     # Disaster heatmap
+│   │   ├── Chatbot.tsx     # AI chatbot interface
+│   │   ├── Auth.tsx        # Authentication
+│   │   └── sos.tsx         # Emergency SOS
+│   ├── App.tsx             # Main app component
+│   ├── main.tsx            # Entry point
+│   └── index.css           # Global styles
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── tsconfig.json
+```
+
+## Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd securEd
+
+# Install dependencies
+npm install
+
+# Set up environment variables
+# Create a .env file with your Supabase credentials
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Environment Variables
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
+```
+
+## Database Schema
+
+The application uses Supabase with the following main tables:
+
+- **users** - User profiles and authentication
+- **simulations** - Disaster simulation scenarios
+- **user_progress** - Student progress tracking
+- **achievements** - Badges and achievements
+- **leaderboard** - Gamification scores
+- **resources** - Learning materials
+- **emergency_contacts** - SOS contact information
+- **safety_locations** - Map markers and safe zones
+
+## Features by Page
+
+### Landing Page (/)
+- Hero section with call-to-action
+- Feature highlights
+- Testimonials carousel
+- Statistics and trust indicators
+
+### Dashboard (/dashboard)
+- Progress overview
+- Recent activities
+- Achievement showcase
+- Quick access to simulations
+
+### Simulations (/simulations)
+- Scenario selection grid
+- Difficulty levels
+- Completion status
+- Performance metrics
+
+### Learning (/learning)
+- Module categories
+- Interactive content
+- Progress tracking
+- Quizzes and assessments
+
+### Safety Map (/safety-map)
+- Interactive Leaflet map
+- Safe zones and evacuation routes
+- Emergency resource locations
+- Real-time updates
+
+### Heatmap (/heatmap)
+- Disaster intensity visualization
+- Historical data analysis
+- Risk assessment zones
+
+### Chatbot (/chatbot)
+- AI-powered conversation
+- Emergency guidance
+- Quick response templates
+- Context-aware suggestions
+
+### SOS (/sos)
+- Emergency contact list
+- Quick dial functionality
+- Location sharing
+- Emergency protocols
+
+## Development
+
+```bash
+# Run linter
+npm run lint
+
+# Build for development
+npm run build:dev
+
+# Type checking
+npx tsc --noEmit
+```
+
+## Contributing
+
+Contributions are welcome! Please follow these guidelines:
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License.
+
+## Support
+
+For support, please contact the development team or open an issue in the repository.
+
+## Acknowledgments
+
+- Built with React and Vite
+- UI components from shadcn/ui
+- 3D graphics powered by Three.js
+- Maps by Leaflet
+- Backend by Supabase
+
+---
+
+**SecurEd** - Empowering communities through disaster preparedness education.
