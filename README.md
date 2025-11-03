@@ -137,5 +137,12 @@ The application uses Supabase with the following main tables:
 - Backend by Supabase
 
 ---
+<img width="1345" height="600" alt="Screenshot 2025-10-29 191149" src="https://github.com/user-attachments/assets/781c8d23-bef0-4f05-9f66-cade71536ba4" />
+<img width="1344" height="596" alt="Screenshot 2025-10-29 191539" src="https://github.com/user-attachments/assets/0bc193d4-9e68-49d3-a6ab-600c21e65d3a" />
+<img width="1348" height="599" alt="Screenshot 2025-10-29 191456" src="https://github.com/user-attachments/assets/4909e898-0f91-477b-9daa-dd1c4b249993" />
+<img width="1341" height="596" alt="Screenshot 2025-10-29 191600" src="https://github.com/user-attachments/assets/4df5c80d-ebe8-4327-b980-f204c0d761c9" />
+
+
+
 
 **SecurEd** - Empowering communities through disaster preparedness education.
