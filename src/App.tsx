@@ -15,6 +15,8 @@ import Chatbot from "./pages/Chatbot";
 import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 import SOS from "./pages/sos";
+import EmbeddedDemo from "./pages/EmbeddedDemo";
+
 
 
 
@@ -35,6 +37,7 @@ const App = () => (
           <Route path="/learning" element={<Learning />} />
           <Route path="/govt-resources" element={<GovtResources />} />
           <Route path="/safety-map" element={<SafetyMap />} />
+          <Route path="/embed-demo" element={<EmbeddedDemo />} />
           <Route path="/heatmap" element={<Heatmap />} />
           <Route path="/chatbot" element={<Chatbot />} />
           <Route path="/auth" element={<Auth />} />

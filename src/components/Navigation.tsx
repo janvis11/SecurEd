@@ -12,6 +12,8 @@ export const Navigation = () => {
     { to: "/", label: "Home" },
     { to: "/dashboard", label: "Dashboard" },
     { to: "/simulations", label: "Simulations" },
+    { to: "/embed-demo", label: "Embedded Demo" },
+  { to: "/evacuation-demo", label: "Evacuation Demo" },
     { to: "/learning", label: "Learning" },
     { to: "/govt-resources", label: "Govt Resources" },
     { to: "/safety-map", label: "Safety Map" },
