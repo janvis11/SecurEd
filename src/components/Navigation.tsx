@@ -11,6 +11,7 @@ export const Navigation = () => {
   const navLinks = [
     { to: "/", label: "Home" },
     { to: "/dashboard", label: "Dashboard" },
+    { to: "/simulations", label: "Simulations" },
     { to: "/learning", label: "Learning" },
     { to: "/govt-resources", label: "Govt Resources" },
     { to: "/safety-map", label: "Safety Map" },
